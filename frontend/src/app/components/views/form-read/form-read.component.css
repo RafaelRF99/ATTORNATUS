@@ -1,0 +1,35 @@
+/* ABAIXO TAMANHO TABELA E ALINHAMENTO */
+table {
+    color: #000;
+    position: fixed;
+    right: 7%;
+    background-color: rgb(244, 244, 244);
+    width: 85%;
+}
+/* ACIMA TAMANHO TABELA E ALINHAMENTO */
+
+.negrito {
+    font-weight: 700;
+}
+
+/* ABAIXO ICONE */
+.iconEdit {
+    float: right;
+}
+
+.iconAlinhamento {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.iconEdit a {
+    color: #000;
+    cursor: pointer;
+}
+/* ACIMA ICONE */
+
+th {
+    background-color: rgb(221, 221, 221);
+    border: rgb(221, 221, 221);
+}

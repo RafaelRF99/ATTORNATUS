@@ -1,0 +1,64 @@
+/* ABAIXO COMPONENTE DO MATERIAL */
+.example-spacer {
+    flex: 1 1 auto;
+}
+/* ACIMA COMPONENTE DO MATERIAL */
+
+/* ABAIXO ABA HEADER */
+.header {
+    background-color: rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    height: 64px;
+    width: 100%;
+}
+
+.centralizar {
+    display: flex;
+    align-items: center;
+}
+
+/* ACIMA ABA HEADER */
+
+/* ABAIXO É SOBRE PESQUISA */
+.externoPesquisa {
+    margin-left: 150px;
+    background-color: rgb(154, 154, 154);
+    width: 40%;
+    height: 40px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.internoPesquisa {
+    background: none;
+    border: none;
+    filter: none;
+    width: 100%;
+    height: 90%;
+    margin-left: 5px;
+}
+
+.internoPesquisa::placeholder {
+    color: #FFF;
+}
+
+.iconeSearch {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    margin-left: 7px;
+    color: #FFF;
+}
+/* ACIMA É SOBRE PESQUISA */
+
+/* ABAIXO TITULO */
+.titulo {
+    font-size: 15px;
+    margin: 20px 0 10px 130px;
+}
+/* ACIMA TITULO */

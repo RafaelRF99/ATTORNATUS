@@ -1,0 +1,57 @@
+/* ABAIXO MATERIAL */
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+/* ACIMA MATERIAL */
+
+/* ABAIXO TELA CADASTRO*/
+.cadastro {
+  width: 750px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* ACIMA TELA CADASTRO*/
+
+/* ABAIXO TITULO */
+.bold {
+  font-weight: bold;
+}
+/* ACIMA TITULO */
+
+
+/* ABAIXO CPF NUMERO ESCOLHA DE TELEFONE */
+.cpfTamanho {
+  width: 45%;
+}
+
+.numeroTamanho {
+  width: 25%;
+}
+
+.telefoneTamanho {
+  width: 20%;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* ACIMA CPF NUMERO ESCOLHA DE TELEFONE */
+
+.posicaoBotao {
+  width: 100px;
+}
+
+.avisoSMS {
+  color: rgb(73, 94, 161);
+  font-weight: 400;
+}

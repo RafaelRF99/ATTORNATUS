@@ -1,0 +1,18 @@
+{
+  "usuario": [
+    {
+      "email": "rafaelfferreira99@hotmail.com",
+      "name": "Rafael Ferreira",
+      "CPF": 46125341828,
+      "celular": 19998255728,
+      "id": 1
+    },
+    {
+      "email": "anahlarissa@gmail.com",
+      "name": "Ana Larissa dos Reis Ferreira",
+      "CPF": "45216547823",
+      "celular": "19998255728",
+      "id": 2
+    }
+  ]
+}

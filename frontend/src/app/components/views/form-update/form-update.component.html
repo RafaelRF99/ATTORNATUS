@@ -1,0 +1,44 @@
+<section class="cadastro">
+    <div>
+        <span>
+            <h3 class="bold">Editar usuário</h3>
+        </span>
+        <form>
+            <mat-form-field class="example-full-width">
+                <mat-label>Email</mat-label>
+                <input type="email" matInput [formControl]="emailFormControl" placeholder="Ex. exemplo@123.com">
+                <mat-error *ngIf="emailFormControl.hasError('email') && !emailFormControl.hasError('required')">
+                    Por favor digite um email valido
+                </mat-error>
+                <mat-error *ngIf="emailFormControl.hasError('required')">
+                    Email é <strong>requisitado</strong>
+                </mat-error>
+            </mat-form-field>
+            <mat-form-field class="example-full-width">
+                <mat-label>Nome completo</mat-label>
+                <input matInput >
+            </mat-form-field>
+            <table class="container" cellspacing="0">
+                <mat-form-field class="cpfTamanho">
+                    <mat-label>CPF</mat-label>
+                    <input matInput maxlength="11" placeholder="Ex. 465.462.451-54">
+                </mat-form-field>
+                <mat-form-field class="numeroTamanho">
+                    <mat-label>Número de telefone</mat-label>
+                    <input matInput placeholder="Ex. California">
+                </mat-form-field>
+                <mat-form-field class="telefoneTamanho">
+                    <mat-select [formControl]="selected" [errorStateMatcher]="matcher">
+                        <mat-option value="valid">CELULAR</mat-option>
+                        <mat-option value="valid">TELEFONE</mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+            </table>
+        </form>
+    </div>
+    <div>
+        <button class="posicaoBotao" [mat-dialog-close]="true" mat-raised-button color="primary">
+            Salvar</button>
+    </div>
+</section>
